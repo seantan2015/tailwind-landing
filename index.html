@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tailwind Landing Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header class="px-6 pt-6">
+      <nav class="flex h-9 items-center justify-between">
+        <div class="flex">
+          <a href="#">
+            <img
+              src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/325/party-popper_1f389.png"
+              class="h-8 hover:animate-spin"
+              alt="Party Popper"
+            />
+          </a>
+        </div>
+        <div class="hidden md:flex gap-x-6">
+          <a
+            href="#"
+            class="font-semibold text-gray-900 hover:text-gray-600 hover:underline underline-offset-4"
+            >Products</a
+          >
+          <a
+            href="#"
+            class="font-semibold text-gray-900 hover:text-gray-600 hover:underline underline-offset-4"
+            >Solutions</a
+          >
+          <a
+            href="#"
+            class="font-semibold text-gray-900 hover:text-gray-600 hover:underline underline-offset-4"
+            >Pricing</a
+          >
+        </div>
+        <div>
+          <button
+            class="bg-gray-900 text-white rounded-full px-4 py-2 text-sm font-semilbold hover:bg-gray-600"
+          >
+            Sign in
+          </button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="w-full block md:flex px-6 py-24 gap-x-12">
+        <div class="w-full md:w-1/2">
+          <h1 class="text-6xl font-bold text-gray-800">
+            Ponzi Scheme for
+            <span
+              class="hover:animate-pulse bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600"
+              >Everyone</span
+            >
+          </h1>
+          <p class="tet-gray-600 pt-6">
+            Millions of companies get conned by our services. It's not illegal,
+            because we're straight up telling you.
+          </p>
+        </div>
+        <div class="w-full md:w-1/2 pt-6 md:pt-0">
+          <img
+            class="h-96 w-auto"
+            src="https://images.unsplash.com/photo-1553729459-efe14ef6055d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHRha2luZyUyMG1vbmV5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+            alt="A person counting money"
+          />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
